@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_goal_planner"
+            android:icon="@drawable/ic_action_calendar_month"
+            android:title="Goal Planner" />
+        <item
+            android:id="@+id/nav_completed"
+            android:icon="@drawable/ic_action_tick"
+            android:title="Your Completed Goals" />
+        <item
+            android:id="@+id/nav_quotes"
+            android:icon="@drawable/ic_action_bulb"
+            android:title="Motivational Quotes" />
+        <item
+            android:id="@+id/nav_cats"
+            android:icon="@drawable/ic_action_mustache"
+            android:title="Cat Photos" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_idle_lock"
+            android:title="Log out" />
+    </group>
+
+  <!--  <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item> -->
+
+</menu>

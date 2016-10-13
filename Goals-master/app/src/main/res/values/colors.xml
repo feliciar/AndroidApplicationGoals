@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#14b1e1</color>
+    <color name="colorPrimaryDark">#139dc8</color>
+    <color name="colorAccent">#fd4444</color>
+    <color name="colorDivider">#cecece</color>
+
+    <color name="colorWeeklyTab">#5d19a2</color>
+    <color name="colorWeeklyTabDark">#4d1586</color>
+    <color name="colorMonthlyTab">#f3f57f17</color>
+    <color name="colorMonthlyTabDark">#de7417</color>
+    <color name="colorLifeTab">#d866b900</color>
+    <color name="colorLifeTabDark">#66b900</color>
+
+    <color name="colorProgressCompleted">#fc14b1e1</color>
+    <color name="colorProgressRemaining">#e65d19a2</color>
+
+
+</resources>

@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:listPreferredItemHeight"
+    android:divider="?android:dividerVertical"
+    android:dividerPadding="8dp"
+    android:showDividers="middle">
+
+    <LinearLayout android:id="@+id/primary_target"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingStart="?android:listPreferredItemPaddingLeft"
+        android:paddingLeft="?android:listPreferredItemPaddingLeft"
+        android:paddingEnd="?android:listPreferredItemPaddingRight"
+        android:paddingRight="?android:listPreferredItemPaddingRight"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:background="?android:selectableItemBackground">
+
+        <TextView style="?android:textAppearanceListItemSmall"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dummy_title" />
+
+        <TextView style="?android:textAppearanceSmall"
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dummy_subtitle" />
+
+    </LinearLayout>
+    <ImageButton android:id="@+id/secondary_action"
+        style="@android:style/Widget.Holo.Button.Borderless"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_action_tick"
+        android:contentDescription="@string/delete_content_description"
+        />
+
+
+</LinearLayout>

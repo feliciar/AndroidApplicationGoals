@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Goals</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_user_did_not_exist">No user with this email</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <string name="dummy_title">Dummy title</string>
+    <string name="dummy_subtitle">Dummy subtitle</string>
+
+    <string name="delete_content_description">Delete</string>
+
+    <string name="touched_primary_message">Touched primary list item target.</string>
+    <string name="touched_secondary_message">Touched secondary list item target (delete).</string>
+
+    <string name="title_daily">Daily Goals</string>
+    <string name="title_weekly">Weekly Goals</string>
+    <string name="title_monthly">Monthly Goals</string>
+
+    <string name="life_goals">Life Goals</string>
+    <string name="add">Add</string>
+    <string name="delete">Delete</string>
+
+    <string name="progress_title">Progress</string>
+    <string name="planner_title">GOALS</string>
+    <string name="goals_list">Goals</string>
+    <string name="quote">QUOTE OF THE DAY</string>
+    <string name="cats">CATS</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="delete_msg">Would you like to delete this goal?</string>
+
+    <string name="add_to_weekly_msg">Please enter a week number.</string>
+    <string name="add_to_monthly_msg">Please select a month.</string>
+
+    <string-array name="spinner_drop_down_array">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+    <string name="title_activity_login">Sign in</string>
+
+</resources>
